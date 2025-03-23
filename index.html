@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chania Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header, .footer {
+            background-color: #0047ab;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+        }
+        .sidebar {
+            width: 200px;
+            background-color:white;
+            padding: 10px;
+        }
+        .sidebar a {
+            display: block;
+            padding: 10px;
+            background: #4da6ff;
+            color: white;
+            text-decoration: none;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+        .sidebar a:hover {
+            background: #3399ff;
+        }
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+        }
+        .footer {
+            font-size: 16px;
+        }
+        .bt1{
+                border: 3px solid green ;
+                border-radius: 5px;
+                margin: 75px;
+                margin-left: 0;
+                margin-right: 6px;
+                padding-top: auto ; text-align: center ;
+                background-color: rgb(173, 207, 173);
+                height:35px; width: 75px;
+                text-decoration: none;
+            }
+    </style>
+</head>
+<body>
+    <p><a class="bt1" href="Index.html">bài tập 1</a>
+        <a class="bt1" href="Bai2.html">bài tập 2</a>
+        <a class="bt1" href="Bai3.html">bài tập 3</a>
+        <a class="bt1" href="Bai4.html">bài tập 4</a>
+        <a class="bt1" href="Bai5.html">bài tập 5</a>
+        <a class="bt1" href="Bai6.html">bài tập 6</a></p>
+    <div class="header">Chania</div>
+    <div class="container">
+        <div class="sidebar">
+            <a href="#">The Flight</a>
+            <a href="#">The City</a>
+            <a href="#">The Island</a>
+            <a href="#">The Food</a>
+        </div>
+        <div class="content">
+            <h2>The City</h2>
+            <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided into two parts, the old town and the modern city.</p>
+            <p>You will learn more about web layout and responsive web pages in a later chapter.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+        </div>
+    </div>
+    <div class="footer">Footer Text</div>
+</body>
+</html>
